@@ -159,9 +159,9 @@ const apiKey = "sk-or-v1-YOUR_KEY_HERE";  // ← EDIT THIS
 
 ---
 
-## 🆚 Free vs Premium Comparison
+## 🆚 Free vs OPEN-AI personal API versions Comparison
 
-| Feature | Free (OpenRouter) | Premium (OpenAI) |
+| Feature | Free (OpenRouter) | GPT-4 (OpenAI) |
 |---------|-------------------|------------------|
 | **Cost** | $0.00 forever | ~$0.0003/question |
 | **API Key** | Free signup | Requires payment |
