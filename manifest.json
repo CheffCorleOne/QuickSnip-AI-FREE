@@ -26,9 +26,10 @@
     }
   },
   "action": {
-    "default_title": "AI Screen Snip (Gemini Free)"
+    "default_title": "OpenRoute as hidden helper"
   },
   "content_security_policy": {
     "extension_pages": "script-src 'self'; object-src 'self'"
   }
+
 }
