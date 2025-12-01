@@ -124,7 +124,7 @@ chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
   }
 });
 
-// Обрезка изображения через content script
+// cropping the image with content script
 async function cropImage(dataUrl, cropArea) {
   console.log("🔧 Background: Sending to content script for cropping");
   
@@ -152,22 +152,22 @@ async function cropImage(dataUrl, cropArea) {
   });
 }
 
-// OPENROUTER VISION ANALYSIS (FREE!)
+// OPENROUTER VISION ANALYSIS (free)
 async function analyzeWithVision(screenshotDataUrl) {
   console.log("🔧 Background: =============================");
   console.log("🔧 Background: OPENROUTER VISION ANALYSIS");
   console.log("🔧 Background: =============================");
   
-  // OpenRouter API ключ
+  // OpenRouter API key (hardcoded)
   const apiKey = "PASTE YOUR OPENROUTE API HERE";
   
   console.log("🔧 Background: ✅ Using OpenRouter API");
 
-  // Конвертируем base64
+  // convert to base64
   const base64Image = screenshotDataUrl.replace(/^data:image\/\w+;base64,/, '');
   console.log("🔧 Background: Base64 image length:", base64Image.length);
   
-  // Список бесплатных vision моделей для перебора
+  // free models by tries
   const modelsToTry = [
     "openrouter/bert-nebulon-alpha",
     "google/gemini-2.0-flash-exp:free",
@@ -261,7 +261,8 @@ DO NOT add any explanation or preamble. Just the answer.`
     }
   }
   
-  // Если ни одна модель не сработала
+  // if keys did not work:
   console.error("🔧 Background: ❌ All models failed");
   throw new Error(`OpenRouter failed: ${lastError?.error?.message || 'All models unavailable'}`);
+
 }
