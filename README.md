@@ -4,7 +4,7 @@
 
 Chrome extension using OpenRouter's free vision models for screen capture, text extraction, and answer generation. Zero API costs, community-powered AI with stealth UI.
 
-> 💡 **Looking for faster respose and stability?** Check out [QuickSnip-AI]([https://github.com/CheffCorleOne/QuickSnip-AI) with GPT-4 Vision
+> 💡 **Looking for faster respose and stability?** Check out QuickSnip-AI https://github.com/CheffCorleOne/QuickSnip-AI with GPT-4 Vision
 
 ---
 
