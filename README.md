@@ -227,3 +227,31 @@ The extension automatically switches to another free model. You have **6 models*
 - All free models are rate-limited (rare)
 - Network connectivity issues
 - Invalid API key
+
+### Selection doesn't work
+- Try reloading the page
+- Click extension icon to reactivate
+- Check if extension is enabled in `chrome://extensions/`
+
+### No answer appears
+- Wait 3-5 seconds for processing
+- Check if selection area was large enough (>30x30px)
+- Look in bottom-right corner (answer is very subtle)
+- Open DevTools Console (F12) and check for error messages
+---
+
+## 📋 Compatibility
+
+### ✅ Supported Browsers
+- Chrome (Windows, macOS, Linux)
+- Microsoft Edge
+- Brave
+- Opera
+- Arc
+- Any Chromium-based browser
+
+### ❌ Not Supported
+- Safari (requires Safari Web Extension conversion)
+- Firefox (partial compatibility, not tested)
+- Mobile browsers (iOS/Android)
+
