@@ -56,7 +56,7 @@ const apiKey = "sk-or-v1-YOUR_KEY_HERE";
 Replace with your actual OpenRouter API key:
 
 ```javascript
-const apiKey = "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";
+const apiKey = "sk-or-v1-8ds9d8s9d8s9d8s9d8s9d89s8d9s8d9s8d9sd8.......;
 ```
 
 ### 3. Load Extension in Chrome
